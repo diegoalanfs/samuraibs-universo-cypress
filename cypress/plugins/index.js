@@ -27,6 +27,7 @@ module.exports = (on, config) => {
 
   const pool = new Pool(configJson.dbConfig)
 
+  //teste
   on('task', {
     removeUser(email) {
       return new Promise(function(resolve){
